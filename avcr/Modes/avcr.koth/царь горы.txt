@@ -1,0 +1,371 @@
+"blocker_passes"
+{
+	"1"
+	{
+		"position"		"7.804749 111.031250 126.495354"
+		"Angles"		"90.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"2"
+	{
+		"position"		"7.784867 164.062500 126.926567"
+		"Angles"		"90.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"3"
+	{
+		"position"		"9.002510 -53.031223 126.254204"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"4"
+	{
+		"position"		"7.970313 -106.062500 126.774094"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"5"
+	{
+		"position"		"8.451888 57.000023 126.600067"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"6"
+	{
+		"position"		"7.188069 -159.093750 126.548340"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"7"
+	{
+		"position"		"8.221899 217.093750 126.741264"
+		"Angles"		"90.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"8"
+	{
+		"position"		"6.580356 -242.125122 92.108589"
+		"Angles"		"135.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"9"
+	{
+		"position"		"8.927302 300.125000 92.978012"
+		"Angles"		"135.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"10"
+	{
+		"position"		"10.022223 412.609711 -16.529823"
+		"Angles"		"135.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"11"
+	{
+		"position"		"10.857404 487.687836 -91.446495"
+		"Angles"		"135.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"12"
+	{
+		"position"		"4.873580 -354.849487 -20.159492"
+		"Angles"		"135.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"13"
+	{
+		"position"		"3.855841 -429.912598 -95.091385"
+		"Angles"		"135.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"14"
+	{
+		"position"		"2.789494 -504.807709 -170.191254"
+		"Angles"		"135.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"15"
+	{
+		"position"		"-173.776215 -76.644394 126.115944"
+		"Angles"		"449.999786 180.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"16"
+	{
+		"position"		"-173.472290 142.280273 125.591721"
+		"Angles"		"449.999786 180.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"17"
+	{
+		"position"		"190.837494 141.125320 126.660370"
+		"Angles"		"90.000259 0.000051 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"18"
+	{
+		"position"		"191.708160 -78.937172 126.062035"
+		"Angles"		"90.000000 -0.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"19"
+	{
+		"position"		"274.739410 -79.536224 92.865669"
+		"Angles"		"135.000000 -0.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"20"
+	{
+		"position"		"274.868683 140.636154 92.597168"
+		"Angles"		"135.000259 359.999786 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"21"
+	{
+		"position"		"-256.807343 -76.093994 92.668434"
+		"Angles"		"494.999786 180.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"22"
+	{
+		"position"		"-256.503448 142.829254 92.297264"
+		"Angles"		"494.999786 180.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"23"
+	{
+		"position"		"311.966064 140.029984 54.696991"
+		"Angles"		"135.000259 359.999786 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"24"
+	{
+		"position"		"349.101807 -80.946144 17.233082"
+		"Angles"		"135.000000 -0.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"25"
+	{
+		"position"		"423.584381 -82.322960 -58.278957"
+		"Angles"		"135.000000 -0.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"26"
+	{
+		"position"		"498.224152 -83.778397 -133.634201"
+		"Angles"		"135.000000 -0.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"27"
+	{
+		"position"		"498.858429 136.896576 -133.398468"
+		"Angles"		"135.000259 359.999786 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"28"
+	{
+		"position"		"-330.600159 144.363403 16.398970"
+		"Angles"		"134.999771 180.000046 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"29"
+	{
+		"position"		"-331.104248 -74.946762 16.970234"
+		"Angles"		"134.999771 180.000046 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"30"
+	{
+		"position"		"-405.994904 -74.295654 -58.134052"
+		"Angles"		"134.999771 180.000046 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"31"
+	{
+		"position"		"-405.486328 145.149002 -58.709908"
+		"Angles"		"134.999771 180.000046 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"32"
+	{
+		"position"		"-480.252960 -74.027374 -133.871170"
+		"Angles"		"134.999771 180.000046 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"33"
+	{
+		"position"		"-480.068665 146.251526 -134.122452"
+		"Angles"		"134.999771 180.000046 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"34"
+	{
+		"position"		"5.945518 -279.530212 54.516247"
+		"Angles"		"135.000000 270.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"35"
+	{
+		"position"		"11.760788 562.842346 -166.287155"
+		"Angles"		"135.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"36"
+	{
+		"position"		"9.417698 337.521088 55.376606"
+		"Angles"		"135.000000 90.000000 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"37"
+	{
+		"position"		"386.295898 138.755203 -20.967974"
+		"Angles"		"135.000214 359.999786 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"38"
+	{
+		"position"		"423.493683 137.989700 -58.767799"
+		"Angles"		"135.000214 359.999786 0.000000"
+		"model"		"models/props_c17/fence03a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"39"
+	{
+		"position"		"7.607359 16.865377 127.805519"
+		"Angles"		"405.000000 180.000000 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"40"
+	{
+		"position"		"16.168135 8.606627 128.778305"
+		"Angles"		"405.000000 270.000000 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"41"
+	{
+		"position"		"27.829935 17.820549 139.097046"
+		"Angles"		"417.202271 40.120758 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"42"
+	{
+		"position"		"17.427767 32.948101 140.821106"
+		"Angles"		"441.606781 135.576630 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"43"
+	{
+		"position"		"33.603405 4.563877 140.199753"
+		"Angles"		"442.946960 7.107080 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"44"
+	{
+		"position"		"-2.012089 -4.612080 143.400879"
+		"Angles"		"442.946991 172.892929 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"45"
+	{
+		"position"		"15.119133 18.546297 145.857605"
+		"Angles"		"405.000000 0.000000 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+	"46"
+	{
+		"position"		"37.293358 -10.825990 149.395966"
+		"Angles"		"420.249969 273.052063 0.000000"
+		"model"		"models/props/de_train/hr_t/barrel_a/barrel_a.mdl"
+		"colors"		"255 255 0 255"
+		"UnLockNum"		"64"
+	}
+}

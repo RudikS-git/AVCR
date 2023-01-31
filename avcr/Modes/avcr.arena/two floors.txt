@@ -1,0 +1,2463 @@
+"blocker_passes"
+{
+	"1"
+	{
+		"position"		"-165.415268 51.897846 208.816071"
+		"Angles"		"450.000000 0.000038 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 0"
+		"UnLockNum"		"64"
+	}
+	"2"
+	{
+		"position"		"-486.875488 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"3"
+	{
+		"position"		"1.000000 1146.000000 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"4"
+	{
+		"position"		"-85.908142 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"5"
+	{
+		"position"		"-488.618408 1208.937622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"6"
+	{
+		"position"		"-494.339844 1168.906372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"7"
+	{
+		"position"		"-491.333282 1128.875122 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"8"
+	{
+		"position"		"-490.020691 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"9"
+	{
+		"position"		"-488.326385 1048.812622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"10"
+	{
+		"position"		"-487.400085 1008.781372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"11"
+	{
+		"position"		"-489.815125 968.750122 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"12"
+	{
+		"position"		"-487.269714 928.718872 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"13"
+	{
+		"position"		"589.623352 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"14"
+	{
+		"position"		"-498.582214 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"15"
+	{
+		"position"		"-101.912193 1208.937500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"16"
+	{
+		"position"		"-101.732254 1168.906250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"17"
+	{
+		"position"		"-101.560974 1128.875000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"18"
+	{
+		"position"		"-101.248169 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"19"
+	{
+		"position"		"-102.386002 1048.812500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"20"
+	{
+		"position"		"-511.107269 841.000000 -272.437378"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"21"
+	{
+		"position"		"-101.557640 1008.781250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"22"
+	{
+		"position"		"-102.818108 968.750000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"23"
+	{
+		"position"		"-102.020531 928.718750 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"24"
+	{
+		"position"		"572.477234 1208.937500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"25"
+	{
+		"position"		"-498.253082 841.000000 -232.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"26"
+	{
+		"position"		"-489.447784 888.687683 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"27"
+	{
+		"position"		"-165.193207 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"28"
+	{
+		"position"		"586.636108 1168.906250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"29"
+	{
+		"position"		"587.839417 1128.875000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"30"
+	{
+		"position"		"589.042664 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"31"
+	{
+		"position"		"590.245972 1048.812500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"32"
+	{
+		"position"		"592.652649 968.750000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"33"
+	{
+		"position"		"593.855957 928.718750 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"34"
+	{
+		"position"		"595.059448 888.687500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"35"
+	{
+		"position"		"-99.216736 841.000000 -232.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"36"
+	{
+		"position"		"1.000000 996.406494 -312.468750"
+		"Angles"		"360.000000 180.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"37"
+	{
+		"position"		"212.578552 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"38"
+	{
+		"position"		"238.074753 1208.937500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"39"
+	{
+		"position"		"240.503815 1168.906250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"40"
+	{
+		"position"		"239.297791 1128.875000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"41"
+	{
+		"position"		"230.318390 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"42"
+	{
+		"position"		"249.514572 1048.812500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"43"
+	{
+		"position"		"224.125778 1008.781250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"44"
+	{
+		"position"		"287.956848 968.750000 -140.563492"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"45"
+	{
+		"position"		"289.331390 928.718750 -140.649429"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"46"
+	{
+		"position"		"290.705811 888.687500 -140.735367"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"47"
+	{
+		"position"		"551.168152 1008.781250 -140.541351"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"48"
+	{
+		"position"		"185.260468 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"49"
+	{
+		"position"		"1.000000 1055.778198 -232.406219"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"50"
+	{
+		"position"		"-482.890381 841.000000 -192.374985"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"51"
+	{
+		"position"		"1.000000 1057.583130 -192.375031"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"52"
+	{
+		"position"		"-181.653030 841.000000 -272.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"53"
+	{
+		"position"		"-143.012512 841.000000 -192.375031"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"54"
+	{
+		"position"		"188.880127 841.000000 -272.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"55"
+	{
+		"position"		"-512.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"56"
+	{
+		"position"		"-512.0 1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"57"
+	{
+		"position"		"-512.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"58"
+	{
+		"position"		"603.172241 841.000000 -192.375031"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"59"
+	{
+		"position"		"181.087555 841.000000 -232.406219"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"60"
+	{
+		"position"		"230.501404 841.000000 -192.375061"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"61"
+	{
+		"position"		"-128.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"62"
+	{
+		"position"		"-128.0  1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"63"
+	{
+		"position"		"599.140015 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"64"
+	{
+		"position"		"573.721375 841.000000 -272.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"65"
+	{
+		"position"		"166.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"66"
+	{
+		"position"		"166.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"67"
+	{
+		"position"		"591.733521 841.000000 -232.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"68"
+	{
+		"position"		"-108.108208 888.687500 -140.407410"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"69"
+	{
+		"position"		"593.668945 1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"70"
+	{
+		"position"		"-128.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"71"
+	{
+		"position"		"583.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"72"
+	{
+		"position"		"161.115906 1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"73"
+	{
+		"position"		"583.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"74"
+	{
+		"position"		"1.145918 1077.602051 -272.437500"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"75"
+	{
+		"position"		"-165.415268 51.897846 208.816071"
+		"Angles"		"450.000000 0.000038 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 0"
+		"UnLockNum"		"64"
+	}
+	"76"
+	{
+		"position"		"-486.875488 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"77"
+	{
+		"position"		"1.000000 1146.000000 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"78"
+	{
+		"position"		"-85.908142 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"79"
+	{
+		"position"		"-488.618408 1208.937622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"80"
+	{
+		"position"		"-494.339844 1168.906372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"81"
+	{
+		"position"		"-491.333282 1128.875122 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"82"
+	{
+		"position"		"-490.020691 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"83"
+	{
+		"position"		"-488.326385 1048.812622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"84"
+	{
+		"position"		"-487.400085 1008.781372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"85"
+	{
+		"position"		"-489.815125 968.750122 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"86"
+	{
+		"position"		"-487.269714 928.718872 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"87"
+	{
+		"position"		"589.623352 1248.969360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"88"
+	{
+		"position"		"-498.582214 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"89"
+	{
+		"position"		"-101.912193 1208.937500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"90"
+	{
+		"position"		"-101.732254 1168.906250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"91"
+	{
+		"position"		"-101.560974 1128.875000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"92"
+	{
+		"position"		"-101.248169 1088.844360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"93"
+	{
+		"position"		"-102.386002 1048.812500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"94"
+	{
+		"position"		"-511.107269 841.000000 -99.437378"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"95"
+	{
+		"position"		"-101.557640 1008.781250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"96"
+	{
+		"position"		"-102.818108 968.750000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"97"
+	{
+		"position"		"-102.020531 928.718750 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"98"
+	{
+		"position"		"572.477234 1208.937500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"99"
+	{
+		"position"		"-498.253082 841.000000 -59.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"100"
+	{
+		"position"		"-489.447784 888.687683 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"101"
+	{
+		"position"		"-165.193207 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"102"
+	{
+		"position"		"586.636108 1168.906250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"103"
+	{
+		"position"		"587.839417 1128.875000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"104"
+	{
+		"position"		"589.042664 1088.844360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"105"
+	{
+		"position"		"590.245972 1048.812500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"106"
+	{
+		"position"		"592.652649 968.750000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"107"
+	{
+		"position"		"593.855957 928.718750 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"108"
+	{
+		"position"		"595.059448 888.687500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"109"
+	{
+		"position"		"-99.216736 841.000000 -59.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"110"
+	{
+		"position"		"1.000000 996.406494 -139.468750"
+		"Angles"		"360.000000 180.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"111"
+	{
+		"position"		"212.578552 1248.969360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"112"
+	{
+		"position"		"238.074753 1208.937500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"113"
+	{
+		"position"		"240.503815 1168.906250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"114"
+	{
+		"position"		"239.297791 1128.875000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"115"
+	{
+		"position"		"230.318390 1088.844360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"116"
+	{
+		"position"		"249.514572 1048.812500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"117"
+	{
+		"position"		"224.125778 1008.781250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"118"
+	{
+		"position"		"287.956848 968.750000 33.563492"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"119"
+	{
+		"position"		"289.331390 928.718750 33.649429"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"120"
+	{
+		"position"		"290.705811 888.687500 33.735367"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"121"
+	{
+		"position"		"551.168152 1008.781250 33.541351"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"122"
+	{
+		"position"		"185.260468 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"123"
+	{
+		"position"		"1.000000 1055.778198 -59.406219"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"124"
+	{
+		"position"		"-482.890381 841.000000 -19.374985"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"125"
+	{
+		"position"		"1.000000 1057.583130 -19.375031"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"126"
+	{
+		"position"		"-181.653030 841.000000 -99.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"127"
+	{
+		"position"		"-143.012512 841.000000 -19.375031"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"128"
+	{
+		"position"		"188.880127 841.000000 -99.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"129"
+	{
+		"position"		"-512.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"130"
+	{
+		"position"		"-512.0 1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"131"
+	{
+		"position"		"-512.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"132"
+	{
+		"position"		"603.172241 841.000000 -19.375031"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"133"
+	{
+		"position"		"181.087555 841.000000 -59.406219"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"134"
+	{
+		"position"		"230.501404 841.000000 -19.375061"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"135"
+	{
+		"position"		"-128.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"136"
+	{
+		"position"		"-128.0  1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"137"
+	{
+		"position"		"599.140015 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"138"
+	{
+		"position"		"573.721375 841.000000 -99.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"139"
+	{
+		"position"		"166.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"140"
+	{
+		"position"		"166.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"141"
+	{
+		"position"		"591.733521 841.000000 -59.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"142"
+	{
+		"position"		"-108.108208 888.687500 -1.407410"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"143"
+	{
+		"position"		"593.668945 1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"144"
+	{
+		"position"		"-128.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"145"
+	{
+		"position"		"583.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"146"
+	{
+		"position"		"161.115906 1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"147"
+	{
+		"position"		"583.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"148"
+	{
+		"position"		"1.145918 1077.602051 -99.437500"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	
+	
+	
+	
+	
+	
+	
+	"149"
+	{
+		"position"		"-165.415268 51.897846 208.816071"
+		"Angles"		"450.000000 0.000038 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 0"
+		"UnLockNum"		"64"
+	}
+	"150"
+	{
+		"position"		"-486.875488 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"151"
+	{
+		"position"		"1.000000 1146.000000 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"152"
+	{
+		"position"		"-85.908142 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"153"
+	{
+		"position"		"-488.618408 1208.937622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"154"
+	{
+		"position"		"-494.339844 1168.906372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"155"
+	{
+		"position"		"-491.333282 1128.875122 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"156"
+	{
+		"position"		"-490.020691 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"157"
+	{
+		"position"		"-488.326385 1048.812622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"158"
+	{
+		"position"		"-487.400085 1008.781372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"159"
+	{
+		"position"		"-489.815125 968.750122 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"160"
+	{
+		"position"		"-487.269714 928.718872 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"161"
+	{
+		"position"		"589.623352 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"162"
+	{
+		"position"		"-498.582214 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"163"
+	{
+		"position"		"-101.912193 1208.937500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"164"
+	{
+		"position"		"-101.732254 1168.906250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"165"
+	{
+		"position"		"-101.560974 1128.875000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"166"
+	{
+		"position"		"-101.248169 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"167"
+	{
+		"position"		"-102.386002 1048.812500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"168"
+	{
+		"position"		"-511.107269 841.000000 -272.437378"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"169"
+	{
+		"position"		"-101.557640 1008.781250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"170"
+	{
+		"position"		"-102.818108 968.750000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"171"
+	{
+		"position"		"-102.020531 928.718750 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"172"
+	{
+		"position"		"572.477234 1208.937500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"173"
+	{
+		"position"		"-498.253082 841.000000 -232.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"174"
+	{
+		"position"		"-489.447784 888.687683 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"175"
+	{
+		"position"		"-165.193207 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"176"
+	{
+		"position"		"586.636108 1168.906250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"177"
+	{
+		"position"		"587.839417 1128.875000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"178"
+	{
+		"position"		"589.042664 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"179"
+	{
+		"position"		"590.245972 1048.812500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"180"
+	{
+		"position"		"592.652649 968.750000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"181"
+	{
+		"position"		"593.855957 928.718750 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"182"
+	{
+		"position"		"595.059448 888.687500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"183"
+	{
+		"position"		"-99.216736 841.000000 -232.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"184"
+	{
+		"position"		"1.000000 996.406494 -312.468750"
+		"Angles"		"360.000000 180.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"185"
+	{
+		"position"		"212.578552 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"186"
+	{
+		"position"		"238.074753 1208.937500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"187"
+	{
+		"position"		"240.503815 1168.906250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"188"
+	{
+		"position"		"239.297791 1128.875000 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"189"
+	{
+		"position"		"230.318390 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"190"
+	{
+		"position"		"249.514572 1048.812500 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"191"
+	{
+		"position"		"224.125778 1008.781250 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"192"
+	{
+		"position"		"287.956848 968.750000 -140.563492"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"193"
+	{
+		"position"		"289.331390 928.718750 -140.649429"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"194"
+	{
+		"position"		"290.705811 888.687500 -140.735367"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"195"
+	{
+		"position"		"551.168152 1008.781250 -140.541351"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"196"
+	{
+		"position"		"185.260468 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"197"
+	{
+		"position"		"1.000000 1055.778198 -232.406219"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"198"
+	{
+		"position"		"-482.890381 841.000000 -192.374985"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"199"
+	{
+		"position"		"1.000000 1057.583130 -192.375031"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"200"
+	{
+		"position"		"-181.653030 841.000000 -272.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"201"
+	{
+		"position"		"-143.012512 841.000000 -192.375031"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"202"
+	{
+		"position"		"188.880127 841.000000 -272.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"203"
+	{
+		"position"		"-512.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"204"
+	{
+		"position"		"-512.0 1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"205"
+	{
+		"position"		"-512.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"206"
+	{
+		"position"		"603.172241 841.000000 -192.375031"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"207"
+	{
+		"position"		"181.087555 841.000000 -232.406219"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"208"
+	{
+		"position"		"230.501404 841.000000 -192.375061"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"209"
+	{
+		"position"		"-128.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"210"
+	{
+		"position"		"-128.0  1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"211"
+	{
+		"position"		"599.140015 841.000000 -312.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"212"
+	{
+		"position"		"573.721375 841.000000 -272.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"213"
+	{
+		"position"		"166.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"214"
+	{
+		"position"		"166.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"215"
+	{
+		"position"		"591.733521 841.000000 -232.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"216"
+	{
+		"position"		"-108.108208 888.687500 -140.407410"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"217"
+	{
+		"position"		"593.668945 1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"218"
+	{
+		"position"		"-128.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"219"
+	{
+		"position"		"583.0 1162.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"220"
+	{
+		"position"		"161.115906 1038.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"221"
+	{
+		"position"		"583.0 915.0 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"222"
+	{
+		"position"		"1.145918 1077.602051 -272.437500"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"223"
+	{
+		"position"		"-165.415268 51.897846 208.816071"
+		"Angles"		"450.000000 0.000038 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 0"
+		"UnLockNum"		"64"
+	}
+	"224"
+	{
+		"position"		"-486.875488 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"225"
+	{
+		"position"		"1.000000 1146.000000 -312.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"226"
+	{
+		"position"		"-85.908142 1248.969360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"79"
+	{
+		"position"		"-488.618408 1208.937622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"80"
+	{
+		"position"		"-494.339844 1168.906372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"81"
+	{
+		"position"		"-491.333282 1128.875122 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"82"
+	{
+		"position"		"-490.020691 1088.844360 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"83"
+	{
+		"position"		"-488.326385 1048.812622 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"84"
+	{
+		"position"		"-487.400085 1008.781372 -140.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"85"
+	{
+		"position"		"-489.815125 968.750122 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"86"
+	{
+		"position"		"-487.269714 928.718872 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"87"
+	{
+		"position"		"589.623352 1248.969360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"88"
+	{
+		"position"		"-498.582214 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"89"
+	{
+		"position"		"-101.912193 1208.937500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"90"
+	{
+		"position"		"-101.732254 1168.906250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"91"
+	{
+		"position"		"-101.560974 1128.875000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"92"
+	{
+		"position"		"-101.248169 1088.844360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"93"
+	{
+		"position"		"-102.386002 1048.812500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"94"
+	{
+		"position"		"-511.107269 841.000000 -99.437378"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"95"
+	{
+		"position"		"-101.557640 1008.781250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"96"
+	{
+		"position"		"-102.818108 968.750000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"97"
+	{
+		"position"		"-102.020531 928.718750 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"98"
+	{
+		"position"		"572.477234 1208.937500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"99"
+	{
+		"position"		"-498.253082 841.000000 -59.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"100"
+	{
+		"position"		"-489.447784 888.687683 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"101"
+	{
+		"position"		"-165.193207 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"102"
+	{
+		"position"		"586.636108 1168.906250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"103"
+	{
+		"position"		"587.839417 1128.875000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"104"
+	{
+		"position"		"589.042664 1088.844360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"105"
+	{
+		"position"		"590.245972 1048.812500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"106"
+	{
+		"position"		"592.652649 968.750000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"107"
+	{
+		"position"		"593.855957 928.718750 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"108"
+	{
+		"position"		"595.059448 888.687500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"109"
+	{
+		"position"		"-99.216736 841.000000 -59.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"110"
+	{
+		"position"		"1.000000 996.406494 -139.468750"
+		"Angles"		"360.000000 180.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"111"
+	{
+		"position"		"212.578552 1248.969360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"112"
+	{
+		"position"		"238.074753 1208.937500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"113"
+	{
+		"position"		"240.503815 1168.906250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"114"
+	{
+		"position"		"239.297791 1128.875000 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"115"
+	{
+		"position"		"230.318390 1088.844360 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"116"
+	{
+		"position"		"249.514572 1048.812500 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"117"
+	{
+		"position"		"224.125778 1008.781250 33.132416"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"118"
+	{
+		"position"		"287.956848 968.750000 33.563492"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"119"
+	{
+		"position"		"289.331390 928.718750 33.649429"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"120"
+	{
+		"position"		"290.705811 888.687500 33.735367"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"121"
+	{
+		"position"		"551.168152 1008.781250 33.541351"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"122"
+	{
+		"position"		"185.260468 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"123"
+	{
+		"position"		"1.000000 1055.778198 -59.406219"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"124"
+	{
+		"position"		"-482.890381 841.000000 -19.374985"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"125"
+	{
+		"position"		"1.000000 1057.583130 -19.375031"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"126"
+	{
+		"position"		"-181.653030 841.000000 -99.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"127"
+	{
+		"position"		"-143.012512 841.000000 -19.375031"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"128"
+	{
+		"position"		"188.880127 841.000000 -99.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"129"
+	{
+		"position"		"-512.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"130"
+	{
+		"position"		"-512.0 1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"131"
+	{
+		"position"		"-512.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"132"
+	{
+		"position"		"603.172241 841.000000 -19.375031"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"133"
+	{
+		"position"		"181.087555 841.000000 -59.406219"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"134"
+	{
+		"position"		"230.501404 841.000000 -19.375061"
+		"Angles"		"360.000000 -90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"135"
+	{
+		"position"		"-128.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"136"
+	{
+		"position"		"-128.0  1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"137"
+	{
+		"position"		"599.140015 841.000000 -139.468750"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"138"
+	{
+		"position"		"573.721375 841.000000 -99.437439"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"139"
+	{
+		"position"		"166.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"140"
+	{
+		"position"		"166.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"141"
+	{
+		"position"		"591.733521 841.000000 -59.406219"
+		"Angles"		"360.000000 90.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"142"
+	{
+		"position"		"-108.108208 888.687500 -1.407410"
+		"Angles"		"90.000000 270.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"143"
+	{
+		"position"		"593.668945 1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"144"
+	{
+		"position"		"-128.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"145"
+	{
+		"position"		"583.0 1162.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"146"
+	{
+		"position"		"161.115906 1038.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_32x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"147"
+	{
+		"position"		"583.0 915.0 -139.468750"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/props_crates/wooden_crate_64x64.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	"148"
+	{
+		"position"		"1.145918 1077.602051 -99.437500"
+		"Angles"		"360.000000 0.000000 0.000000"
+		"model"		"models/props/cs_assault/rustyrailing02.mdl"
+		"colors"		"255 255 255 255"
+		"UnLockNum"		"64"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
