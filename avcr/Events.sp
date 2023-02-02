@@ -134,58 +134,48 @@ public void OffVipFeatures() {
 			if(VIP_IsClientFeatureUse(i, "BoostLadder"))
 			{
 				VIPFM_ToggleFeature(i, false, "BoostLadder");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , ваш буст по лестнице отключён");
 			}
 
 			if(VIP_IsClientFeatureUse(i, "BHOP"))
 			{
 				VIPFM_ToggleFeature(i, false, "BHOP");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , ваш баннихоп отключён");
 			}
 
 			if(VIP_IsClientFeatureUse(i, "Parachute"))
 			{
 				VIPFM_ToggleFeature(i, false, "Parachute");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , ваш парашют отключён");
 			}
 
 			if(VIP_IsClientFeatureUse(i, "Healthshot") || VIP_IsClientFeatureUse(i, "Healthshot_Pro"))
 			{
 				VIPFM_ToggleFeature(i, false, "Healthshot");
 				VIPFM_ToggleFeature(i, false, "Healthshot_Pro");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , шприц отключен");
 			}
 
 			if(VIP_IsClientFeatureUse(i, "AutoBuy"))
 			{
 				VIPFM_ToggleFeature(i, false, "AutoBuy");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , автозакуп отключен");
 			}		
 
-			if(VIP_IsClientFeatureUse(i, "AutoRespawn") || VIP_IsClientFeatureUse(i, "Respawn"))
+			if(VIP_IsClientFeatureUse(i, "Respawn"))
 			{
-				VIPFM_ToggleFeature(i, false, "AutoRespawn");
 				VIPFM_ToggleFeature(i, false, "Respawn");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , респавн отключен");
 			}
 
 			if(VIP_IsClientFeatureUse(i, "HP"))
 			{
 				VIPFM_ToggleFeature(i, false, "HP");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , повышенное хп отключено");
 			}		
 
 			if(VIP_IsClientFeatureUse(i, "Armor"))
 			{
 				VIPFM_ToggleFeature(i, false, "Armor");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , выдача брони отключена");
 			}
 
 			if(VIP_IsClientFeatureUse(i, "Skins"))
 			{
 				VIPFM_ToggleFeature(i, false, "Skins");
 			}
-
 		}
 	}
 }
@@ -197,31 +187,22 @@ public void OnVipFeatures() {
 		if(IsClientInGame(i) && VIP_IsClientVIP(i))
 		{
 				VIPFM_ToggleFeature(i, true, "BoostLadder");
-				VIP_PrintToChatClient(i, "\x03Буст по лестнице снова включен");
 
 				VIPFM_ToggleFeature(i, true, "BHOP");
-				VIP_PrintToChatClient(i, "\x03Баннихоп снова включен");
 
 				VIPFM_ToggleFeature(i, true, "Parachute");
-				VIP_PrintToChatClient(i, "\x03Парашют снова включен");
 			
 
 				VIPFM_ToggleFeature(i, true, "Healthshot");
 				VIPFM_ToggleFeature(i, true, "Healthshot_Pro");
-				VIP_PrintToChatClient(i, "\x03Шприц снова включен");
 
 	
 				VIPFM_ToggleFeature(i, true, "AutoBuy");
-				VIP_PrintToChatClient(i, "\x03Автозакуп снова включен");
 
-				VIPFM_ToggleFeature(i, true, "AutoRespawn");
 				VIPFM_ToggleFeature(i, true, "Respawn");
-				VIP_PrintToChatClient(i, "\x03Респавн снова включен");
 
 				VIPFM_ToggleFeature(i, true, "HP");
 				VIPFM_ToggleFeature(i, true, "Armor");
-				VIP_PrintToChatClient(i, "\x03Повышенное хп снова включено");
-				VIP_PrintToChatClient(i, "\x03Выдача брони снова включена");
 
 				VIPFM_ToggleFeature(i, true, "Skins");
 		}
@@ -304,7 +285,6 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 								if(!IsFakeClient(i) && VIP_IsClientVIP(i))
 								{
 									VIPFM_ToggleFeature(i, true, "VIP_PLAYERCOLOR");
-									VIP_PrintToChatClient(i, "\x03Раскраска скина снова включена!");
 								}
 
 								if(catchUp_TimerAntiCamp[i] != null)
@@ -347,12 +327,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 							{
 								if(!IsFakeClient(i) && VIP_IsClientVIP(i))
 								{
-									VIPFM_ToggleFeature(i, true, "AutoRespawn");
-
-									VIP_PrintToChatClient(i, "\x03AutoRespawn снова включен!");
-									VIP_PrintToChatClient(i, "\x03Баннихоп снова включен!");
-									VIP_PrintToChatClient(i, "\x03Парашют снова включен!");
-									VIP_PrintToChatClient(i, "\x03Шприц снова включен!");
+									VIPFM_ToggleFeature(i, true, "Respawn");
 								}
 							}
 						}
@@ -405,7 +380,6 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 							if(!IsFakeClient(i) && VIP_IsClientVIP(i))
 							{
 								VIPFM_ToggleFeature(i, true, "Parachute");
-								VIP_PrintToChatClient(i, "\x03Парашют снова включен!");
 							}
 						}
 					}
@@ -415,6 +389,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 			if(numCurrentRound != COUNT_ROUNDS - 1)
 			{
 				ServerCommand("sm plugins unload Duel.smx");
+				ServerCommand("sm plugins unload Duel/Duel.smx");
 
 				if(customRound[numCurrentRound + 1].typeCustomGame == CatchUp)
 				{
@@ -517,12 +492,12 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				{
 					CreateTimer(0.1, TimerDeleteAllWeapons);
 
-					Format(sBuf, sizeof (sBuf), "Начался раунд на %s!\nОсталось раундов: %d", customRound[numCurrentRound].sNameCurWeapon, iCountRound, customRound[numCurrentRound].g_bSetHsMode? "ONLY HS MODE":"Стандарт");
+					Format(sBuf, sizeof (sBuf), "Начался раунд на %s!\nОсталось раундов: %d", customRound[numCurrentRound].sNameCurWeapon, iCountRound, customRound[numCurrentRound].g_bSetHsMode? "Только в голову":"Стандарт");
 					ShowHudTextAll(sBuf);
 					
 					if(customRound[numCurrentRound].g_bSetHsMode)
 					{
-						ShowAlertTextAll("<span class='fontSize-xxl mono-spaced-font-bold' color='#f0423c'>ONLY HS MODE</span>", 7)
+						ShowAlertTextAll("<font color='#ff00ff'>Только в голову</font>", 7)
 					}
 
 					if(customRound[numCurrentRound].g_bProps)
@@ -530,14 +505,14 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 						SpawnBlocks(kvWeaponRoundsObjects);
 					}
 
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался раунд на {RED}%s {DEFAULT}(Осталось раундов: {RED}%d{DEFAULT})\n", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался раунд на {PURPLE}%s {DEFAULT}(Осталось раундов: {PURPLE}%d{DEFAULT})\n", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
 					
 				}
 				case OnlyKnife:
 				{
 					Format(sBuf, sizeof (sBuf), "Начался раунд на %s!\nОсталось раундов: %d", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
 					
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался раунд на {RED}%s {DEFAULT}(Осталось раундов: {RED}%d{DEFAULT})", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался раунд на {PURPLE}%s {DEFAULT}(Осталось раундов: {PURPLE}%d{DEFAULT})", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
 					ShowHudTextAll(sBuf);
 					
 				}
@@ -548,14 +523,14 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				case ChickenWar:
 				{
 					Format(sBuf, sizeof (sBuf), "Началась куриная бойня! \nОружие: %s\nОсталось раундов: %d", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Началась {RED}куриная бойня {DEFAULT}раунд! \nОружие: {RED}%s\nОсталось раундов: {RED}%d", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Началась {PURPLE}куриная бойня {DEFAULT}раунд! \nОружие: {PURPLE}%s\nОсталось раундов: {PURPLE}%d", customRound[numCurrentRound].sNameCurWeapon, iCountRound);
 					SpawnChickens();
 					ShowHudTextAll(sBuf);
 				}
 				case GrenadeWar:
 				{
 					Format(sBuf, sizeof (sBuf), "Началась битва на гранатах(%s)! \nОсталось раундов: %d", customRound[numCurrentRound].sCurrentWeapon, iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Началась {RED}битва на гранатах(%s) {DEFAULT}раунд! {PURPLE}Осталось раундов: {RED}%d", customRound[numCurrentRound].sCurrentWeapon, iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Началась {PURPLE}битва на гранатах(%s) {DEFAULT}раунд! {PURPLE}Осталось раундов: {PURPLE}%d", customRound[numCurrentRound].sCurrentWeapon, iCountRound);
 					ShowHudTextAll(sBuf);
 				}
 				case WallFists:
@@ -569,7 +544,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				case Poeben:
 				{
 					Format(sBuf, sizeof (sBuf), "Началась поебень! \nОсталось раундов: %d", iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Началась {RED}поебень{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Началась {PURPLE}поебень{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 
 					SpawnBlocks(kvPoebenObjects);
 
@@ -578,7 +553,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				case LongJump:
 				{
 					Format(sBuf, sizeof (sBuf), "Начался LongJump раунд! \nОсталось раундов: %d", iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался {RED}LongJump{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался {PURPLE}LongJump{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 
 					ShowHudTextAll(sBuf);
 				}
@@ -605,7 +580,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				case Deagle:
 				{
 					Format(sBuf, sizeof (sBuf), "Начался AWP + DEAGLE раунд! \nОсталось раундов: %d", iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался раунд {RED}AWP + DEAGLE {DEFAULT}(Осталось раундов: {RED}%d{DEFAULT})\n", iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался раунд {PURPLE}AWP + DEAGLE {DEFAULT}(Осталось раундов: {PURPLE}%d{DEFAULT})\n", iCountRound);
 					ShowHudTextAll(sBuf);
 				}
 
@@ -627,8 +602,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 							{
 								if(!IsFakeClient(i) && VIP_IsClientVIP(i))
 								{
-									VIPFM_ToggleFeature(i, false, "AutoRespawn");
-									VIP_PrintToChatClient(i, "\x03AutoRespawn выключен на время кастомки!");
+									VIPFM_ToggleFeature(i, false, "Respawn");
 								}
 							}
 						}
@@ -647,7 +621,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				case Teleporters:
 				{
 					Format(sBuf, sizeof (sBuf), "Начались Телепорташки! \nОсталось раундов: %d", iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начались {RED}Телепорташки{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начались {PURPLE}Телепорташки{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 
 					ShowHudTextAll(sBuf);
 				}
@@ -655,7 +629,7 @@ public void EventRS_PS(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 				case BombMan:
 				{
 					Format(sBuf, sizeof (sBuf), "Начался BombMan раунд! \nОсталось раундов: %d", iCountRound);
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался {RED}BombMan{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался {PURPLE}BombMan{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 
 					ShowHudTextAll(sBuf);
 				}
@@ -716,7 +690,7 @@ public void EventCSWIN_Panel(Event event, const char[] name, bool dontBroadcast)
 
 		//CreateTimer(18.0, WinPanelNewRound_TimerCallBack, _, TIMER_FLAG_NO_MAPCHANGE);
 
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Была завершена игра. Перенастраиваем {LIGHTBLUE}кастомные раунды");
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Была завершена игра. Перенастраиваем {PURPLE}кастомные раунды");
 	}
 }
 
@@ -824,11 +798,11 @@ public void Event_PlayerDeath(Event event, const char[] name, bool dontBroadcast
 
 				if(winner != -1)
 				{
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}Custom Rounds{DEFAULT}] Победителем оказался %N", winner);
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Победителем оказался {PURPLE}%N", winner);
 				}
 				else
 				{
-					CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}Custom Rounds{DEFAULT}] Победитель не найден!");
+					CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Победитель не найден!");
 				}
 
 				Queue.Clear();

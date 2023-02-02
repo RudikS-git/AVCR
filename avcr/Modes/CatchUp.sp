@@ -142,7 +142,7 @@ public void CatchUpGiveItem(int iClient)
 public Action CatchUpRoundEnd_TimerCallBack(Handle hTimer)
 {
 	CS_TerminateRound(6.0, CSRoundEnd_CTWin);
-	CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}] {RED}Террористы {DEFAULT}обосрались. Победа за {LIGHTBLUE}CT");
+	CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] {PURPLE}Террористы {DEFAULT}проиграли. Победа за {PURPLE}CT");
 
 	for(int i = 1; i <= MaxClients; i++)
 	{
@@ -206,7 +206,7 @@ public DataPack FormTeams()
 
 	int count = GetCountPlayersOnServer();
 	int tCount = count / 3;
-	CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}] Всего террористов на {RED}%d {DEFAULT}игроков будет {RED}%d {DEFAULT}штук", count, tCount);
+	CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Всего террористов на {PURPLE}%d {DEFAULT}игроков будет {PURPLE}%d {DEFAULT}штук", count, tCount);
 	dataPack.WriteCell(tCount);
 
 	int clients[MAXPLAYERS + 1];
@@ -271,14 +271,14 @@ public Action CatchUp_TimerCallBack(Handle hTimer)
 		catchUpDataPack.Reset();
 		int count = catchUpDataPack.ReadCell();
 
-		CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}] Ловящими выбраны:");
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Ловящими выбраны:");
 		for(int i = 0; i < count; i ++)
 		{
 			int tClient = GetClientOfUserId(catchUpDataPack.ReadCell());
 
 			if(tClient != 0 && IsClientInGame(tClient))
 			{
-				CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}]      {RED}%N", tClient);
+				CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}]      {PURPLE}%N", tClient);
 			}
 		}
 
@@ -428,7 +428,7 @@ public void EndOfTheRound()
 		}
 	}
 
-	CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}] {LIGHTBLUE}CT {DEFAULT}обосрались. Победа за {RED}T");
+	CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] {PURPLE}CT {DEFAULT}проиграли. Победа за {PURPLE}T");
 }
 
 public int CatchUp_GetMaxUsefulness(int team)
@@ -545,9 +545,9 @@ public Action CatchUp_NotifyRoundStart(Handle hTimer)
 
 	if(time == 8)
 	{
-		Format(sBuf, sizeof (sBuf), "Беги!!! (Выключить музыку !crmus) \nОсталось раундов: %d", iCountRound);
+		Format(sBuf, sizeof (sBuf), "Беги!!! \nОсталось раундов: %d", iCountRound);
 
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начались {RED}догонялки{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+		CGOPrintToChatAll("{DEFAULT}[{PURPLE}XCP{DEFAULT}] Начались {PURPLE}догонялки{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 	}
 
 	static char sSecondBuf[MAXPLAYERS + 1][256];
@@ -612,7 +612,7 @@ public Action SetMessageClient(char [] sBuf, int len)
 public Action CatchUpDeleteFloor_TimerCallBack(Handle hTimer)
 {
 	CatchUpDeleteTowerFloor();
-	CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Пол на {GREEN}башне {DEFAULT}был разрушен!");
+	CGOPrintToChatAll("{DEFAULT}[{PURPLE}XCP{DEFAULT}] Пол на {PURPLE}башне {DEFAULT}был разрушен!");
 
 	return Plugin_Stop;
 }
@@ -630,12 +630,12 @@ public void ShowBetterPlayers()
 
 	if(usefulnessCT != - 1 && i_CountUseFulness[usefulnessCT] != 0)
 	{
-		CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}] Больше всего спас союзников - {LIGHTBLUE}%N{DEFAULT}({GREEN}%d{DEFAULT})", usefulnessCT, i_CountUseFulness[usefulnessCT]);
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Больше всего спас союзников - {PURPLE}%N{DEFAULT}({PURPLE}%d{DEFAULT})", usefulnessCT, i_CountUseFulness[usefulnessCT]);
 	}
 
 	if(usefulnessT != -1  && i_CountUseFulness[usefulnessT] != 0)
 	{
-		CGOPrintToChatAll("[{LIGHTBLUE}CR{DEFAULT}] Больше всего заморозил - {RED}%N{DEFAULT}({GREEN}%d{DEFAULT})", usefulnessT, i_CountUseFulness[usefulnessT]);
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Больше всего заморозил - {PURPLE}%N{DEFAULT}({PURPLE}%d{DEFAULT})", usefulnessT, i_CountUseFulness[usefulnessT]);
 	}
 }
 
@@ -648,7 +648,6 @@ public void CatchUpOffVipFeatures()
 			if(VIP_IsClientFeatureUse(i, "VIP_PLAYERCOLOR"))
 			{
 				VIPFM_ToggleFeature(i, false, "VIP_PLAYERCOLOR");
-				VIP_PrintToChatClient(i, "\x03Идет кастомный раунд , раскраска тела отключена");
 			}
 		}
 	}

@@ -119,7 +119,7 @@ public void EndTouchKOTHZone(const char[] output, int caller, int activator, flo
 	if(IsClientValid(activator) && !KOTH_TimerAntiCamp[activator])
 	{
         KOTH_TimerAntiCamp[activator] = CreateTimer(1.0, KOTH_AntiCampStartTimerCallBack, GetClientUserId(activator), TIMER_FLAG_NO_MAPCHANGE | TIMER_REPEAT);
-        timerSec[activator] = 10;
+        timerSec[activator] = 5;
 //		PrintToChatAll("[DEBUG] %N вышел из зоны!(KOTH_TimerAntiCamp[activator] - %d)", activator, KOTH_TimerAntiCamp[activator]);
 	}
 
@@ -154,7 +154,7 @@ void ShowNotificationKingOfTheHill()
 {
  	char sBuf[128];
     Format(sBuf, sizeof (sBuf), "Начался Царь горы раунд! \nОсталось раундов: %d", iCountRound);
-    CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался раунд {RED}Царь горы {DEFAULT}(Осталось раундов: {RED}%d{DEFAULT})\n", iCountRound);
+    CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался раунд {PURPLE}Царь горы {DEFAULT}(Осталось раундов: {PURPLE}%d{DEFAULT})\n", iCountRound);
 
     for(int i = 1; i <= MaxClients; i++)
 	{

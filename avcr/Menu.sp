@@ -26,14 +26,14 @@ public Menu ChoiceTypeGameMenu()
     g_ChoiceTypeGame.AddItem("", "Телепорташки");
     g_ChoiceTypeGame.AddItem("", "Царь горы");
     g_ChoiceTypeGame.AddItem("", "Арена");
-    g_ChoiceTypeGame.AddItem("", "AWP+DEAGLE", ITEMDRAW_DISABLED); // g_bDeagleRestrict? ITEMDRAW_DEFAULT:ITEMDRAW_DISABLED
+    g_ChoiceTypeGame.AddItem("", "AWP+DEAGLE (неиграбельно)", ITEMDRAW_DISABLED); // g_bDeagleRestrict? ITEMDRAW_DEFAULT:ITEMDRAW_DISABLED
     g_ChoiceTypeGame.AddItem("", "Догонялки");
     g_ChoiceTypeGame.AddItem("", "LongJump + BHOP");
     g_ChoiceTypeGame.AddItem("", "На ножах");
     g_ChoiceTypeGame.AddItem("", "Куриная бойня");
     g_ChoiceTypeGame.AddItem("", "Битва на гранатах");
     g_ChoiceTypeGame.AddItem("", "Стенка на стенку");
-    g_ChoiceTypeGame.AddItem("", "Поебень", ITEMDRAW_DISABLED);
+    g_ChoiceTypeGame.AddItem("", "Поебень (неиграбельно)", ITEMDRAW_DISABLED);
     g_ChoiceTypeGame.ExitBackButton = true;
     g_ChoiceTypeGame.ExitButton = false;
 
@@ -125,12 +125,10 @@ public void CreatePanelInfo(int iClient)
     Panel panel = new Panel();
     panel.SetTitle("Информация:\n");
     panel.DrawText("Автор плагина: RudikS");
-
+    
     char sbuf[32];
-    FormatEx(sbuf, sizeof(sbuf), "Версия: %s", PLUGIN_VERSION);
     panel.DrawText(sbuf);
     panel.DrawText("Задержка между включениями раундов составляет 10 минут");
-    panel.DrawText("Гл.Админы + могут сбрасывать задержку 3 раза в час");
     panel.DrawText("P.S Не забывайте, что в меню есть кнопка перейти на следующую страницу!\n");
     panel.DrawItem("Закрыть");
     panel.CurrentKey = 9;
@@ -206,8 +204,6 @@ public Menu CreateSetRoundMenu(const MenuHandler menuHandler)
     g_NumRoundMenu.AddItem("", "1 раунд");
     g_NumRoundMenu.AddItem("", "2 раунда");
     g_NumRoundMenu.AddItem("", "3 раунда");
-    g_NumRoundMenu.AddItem("", "4 раунда");
-    g_NumRoundMenu.AddItem("", "5 раундов");
     g_NumRoundMenu.ExitBackButton = true;
     g_NumRoundMenu.ExitButton = false;
 

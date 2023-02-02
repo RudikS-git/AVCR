@@ -22,8 +22,8 @@ public Action CreateRandomCustomRoundsHandler(Handle hTime) {
     PlayerCrToCommonCr(0);
     ResetCR(pCustomRound[0]);
 
-    CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CustomRounds{DEFAULT}] Идет автоматическая установка кастомных %d раундов...", randomInt);
-		ShowHudTextAll("[CustomRounds] Идет автоматическая установка кастомных раундов...");
+    CGOPrintToChatAll("{DEFAULT}[{PURPLE}XCP{DEFAULT}] Идет автоматическая установка кастомных %d раундов...", randomInt);
+		ShowHudTextAll("Идет автоматическая установка кастомных раундов...");
   }
 
   return Plugin_Continue;

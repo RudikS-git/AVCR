@@ -78,7 +78,7 @@ public void ShowNotificationWallFists()
 {
     char sBuf[128];
     Format(sBuf, sizeof (sBuf), "Началась стенка на стенку! \nОсталось раундов: %d", iCountRound);
-    CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Началась {RED}стенка на стенку{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+    CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Началась {PURPLE}стенка на стенку{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 
     for(int i = 1; i <= MaxClients; i++)
     {

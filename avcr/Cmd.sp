@@ -14,11 +14,11 @@ public Action StopSoundHandler(int iClient, int argc)
 
 	if(g_bCatchUpMusic[iClient])
 	{
-		CGOPrintToChat(iClient, "[{LIGHTBLUE}CR{DEFAULT}] Вы успешно {GREEN}включили {DEFAULT}музыку.");
+		CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Вы успешно {PURPLE}включили {DEFAULT}музыку.");
 	}
 	else
 	{
-		CGOPrintToChat(iClient, "[{LIGHTBLUE}CR{DEFAULT}] Вы успешно {RED}выключили {DEFAULT}музыку.");
+		CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Вы успешно {PURPLE}выключили {DEFAULT}музыку.");
 	}
 
 	IntToString(g_bCatchUpMusic[iClient], sbuf, sizeof(sbuf));

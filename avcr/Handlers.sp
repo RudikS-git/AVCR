@@ -34,7 +34,7 @@
 // 			}
 // 			else if(g_iAdminChoses) 
 // 			{
-// 				CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}На данный момент другой {RED}администратор {DEFAULT}проводит создание {LIGHTBLUE}Custom Rounds");
+// 				CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На данный момент другой {PURPLE}администратор {DEFAULT}проводит создание {PURPLE}Custom Rounds");
 // 			}
 // 			else if(bNewVote) 
 // 			{
@@ -43,7 +43,7 @@
 
 // 				//if(timeLeft <= 60)
 // 				//{
-// 				//	CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}До окончания игры осталось {RED}%d {DEFAULT}секунд. Дождитесь обнуления и повторите попытку!", timeLeft);
+// 				//	CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] До окончания игры осталось {PURPLE}%d {DEFAULT}секунд. Дождитесь обнуления и повторите попытку!", timeLeft);
 // 				//	return;
 // 				//}
 
@@ -51,12 +51,12 @@
 
 // 				if(curTime > timeCD)
 // 				{
-// 					CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
+// 					CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
 // 				}
 // 				else
 // 				{
 // 					int _timeCD = timeCD - curTime;
-// 					CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Следующее голосование возможно через {RED}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
+// 					CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Следующее голосование возможно через {PURPLE}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
 // 				}
 // 			}
 // 		}
@@ -95,9 +95,9 @@
 // 				delete g_hTimer;
 // 				g_hTimer = null;
 // 				bNewVote = false;
-// 				CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] КД сбросилось, можно начинать новый кастомный раунд!");
+// 				CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] КД сбросилось, можно начинать новый кастомный раунд!");
 // 			}
-// 			else CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Ошибка! Не удалось найти ограничение для установки кастомного раунда");
+// 			else CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Ошибка! Не удалось найти ограничение для установки кастомного раунда");
 		
 // 		}
 // 	}
@@ -121,7 +121,7 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 					}
 					else if(g_iAdminChoses) 
 					{
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}На данный момент другой {RED}администратор {DEFAULT}проводит создание {LIGHTBLUE}Custom Rounds");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На данный момент другой {PURPLE}администратор {DEFAULT}проводит создание {PURPLE}Custom Rounds");
 					}
 					else if(bNewVote) 
 					{
@@ -130,7 +130,7 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 
 						//if(timeLeft <= 60)
 						//{
-						//	CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}До окончания игры осталось {RED}%d {DEFAULT}секунд. Дождитесь обнуления и повторите попытку!", timeLeft);
+						//	CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] До окончания игры осталось {PURPLE}%d {DEFAULT}секунд. Дождитесь обнуления и повторите попытку!", timeLeft);
 						//	return;
 						//}
 						WithVoting = true;
@@ -138,12 +138,12 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 
 						if(curTime > timeCD)
 						{
-							CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
+							CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
 						}
 						else
 						{
 							int _timeCD = timeCD - curTime;
-							CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Следующее голосование возможно через {RED}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
+							CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Следующее голосование возможно через {PURPLE}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
 						}
 					}
 				}
@@ -153,7 +153,7 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 					AdminId admin = GetUserAdmin(iClient);
 					if(admin == INVALID_ADMIN_ID || !GetAdminFlag(admin, Admin_Root))
 					{
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] А хуй тебе :)");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Нету доступа");
 						return;
 					}
 
@@ -166,7 +166,7 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 					}
 					else if(g_iAdminChoses) 
 					{
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}На данный момент другой {RED}администратор {DEFAULT}проводит создание {LIGHTBLUE}Custom Rounds");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На данный момент другой {PURPLE}администратор {DEFAULT}проводит создание {PURPLE}Custom Rounds");
 					}
 					else if(bNewVote)
 					{
@@ -174,12 +174,12 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 
 						if(curTime > timeCD)
 						{
-							CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
+							CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
 						}
 						else
 						{
 							int _timeCD = timeCD - curTime;
-							CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Следующий кастомный раунд возможен через {RED}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
+							CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Следующий кастомный раунд возможен через {PURPLE}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
 						}
 					}
 				}
@@ -218,16 +218,16 @@ public int Handler_CrAdminMenu(Menu hMenu, MenuAction action, int iClient, int I
 								delete g_hTimer;
 								bNewVote = false;
 								dischargeCount--;
-								CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] КД сброшен! Осталось %d раз(а)", dischargeCount);
-								CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] %N сбросил КД кастомных раундов!", iClient);
+								CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] КД сброшен! Осталось %d раз(а)", dischargeCount);
+								CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] %N сбросил КД кастомных раундов!", iClient);
 							}
-							else CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Ошибка! Не удалось найти ограничение для установки кастомного раунда");
+							else CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Ошибка! Не удалось найти ограничение для установки кастомного раунда");
 						}
-						else CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Кол-во попыток исчерпано за час. Осталось %d сек", 3600 - dtime);
+						else CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Кол-во попыток исчерпано за час. Осталось %d сек", 3600 - dtime);
 					}
 					else
 					{
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] А хуй тебе :)");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Нету доступа");
 					}
 				}
 
@@ -325,7 +325,7 @@ public int Handler_MenuRoundSettings(Menu hMenu, MenuAction action, int iClient,
 
 				if(!IsNewVoteAllowed())
 				{
-					CGOPrintToChat(iClient, "[{LIGHTBLUE}CR{DEFAULT}] На данный момент голосование {RED}запрещено{DEFAULT}!");
+					CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На данный момент голосование {PURPLE}запрещено{DEFAULT}!");
 					CreateRoundSettingsMenu(iClient).Display(iClient, 15);
 				}
 
@@ -333,7 +333,7 @@ public int Handler_MenuRoundSettings(Menu hMenu, MenuAction action, int iClient,
 
 				if(!WithVoting)
 				{
-					CGOPrintToChat(iClient, "[{LIGHTBLUE}CR{DEFAULT}] Администратор запустил Custom Rounds {RED}без {DEFAULT}голосования!");
+					CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Администратор запустил Custom Rounds {PURPLE}без {DEFAULT}голосования!");
 					WithVoting = true;
 					g_iAdminChoses = 0;
 					preVote = true;		
@@ -485,7 +485,7 @@ public int Handler_MenuChoiceTypeGame(Menu hMenu, MenuAction action, int iClient
 					if(GetClientCount(true) < 3)
 					{
 						ChoiceTypeGameMenu().Display(iClient, 15);
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] На сервере должно находится более {RED}2 {DEFAULT}человек, чтобы включить данный режим!");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На сервере должно находится более {PURPLE}2 {DEFAULT}человек, чтобы включить данный режим!");
 						return;
 					}
 
@@ -549,7 +549,7 @@ public int Handler_MenuChoiceTypeGame(Menu hMenu, MenuAction action, int iClient
 					if(GetClientCount(true) < 3)
 					{
 						ChoiceTypeGameMenu().Display(iClient, 15);
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] На сервере должно находится более {RED}2 {DEFAULT}человек, чтобы включить данный режим!");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На сервере должно находится более {PURPLE}2 {DEFAULT}человек, чтобы включить данный режим!");
 						return;
 					}
 
@@ -814,14 +814,11 @@ public int MenuHandler_SettingsSet(Menu hMenu, MenuAction action, int iClient, i
 
 			Menu setSettings = CreateSetSettings();
 			setSettings.SetTitle("Выберите настройки:\n");
-			setSettings.AddItem("n", "Включить HeadShot мод []", pCustomRound[iClient][numRound].typeCustomGame == ChickenWar? ITEMDRAW_DISABLED:ITEMDRAW_DEFAULT);
-			setSettings.AddItem("n", "Включить доп. объекты []");
-			setSettings.AddItem("n", "Броня [нету]");
+			setSettings.AddItem("n", "Включить Только в голову []", pCustomRound[iClient][numRound].typeCustomGame == ChickenWar? ITEMDRAW_DISABLED:ITEMDRAW_DEFAULT);
+			setSettings.AddItem("n", "Броня [Нету]");
 			setSettings.AddItem("n", "Скорость [Стандарт]", pCustomRound[iClient][numRound].typeCustomGame == Arena? ITEMDRAW_DISABLED:ITEMDRAW_DEFAULT);
 			setSettings.AddItem("n", "Прыжки [Стандарт]", pCustomRound[iClient][numRound].typeCustomGame == Arena? ITEMDRAW_DISABLED:ITEMDRAW_DEFAULT);
-			setSettings.AddItem("n", "Нож [Нету]");
-			setSettings.AddItem("n", "Урон от ножа [Выкл]", pCustomRound[iClient][numRound].g_bKnife == true? ITEMDRAW_DEFAULT:ITEMDRAW_DISABLED);
-			setSettings.AddItem("n", "Стрельба с задержкой [Нету]\n \n");
+			setSettings.AddItem("n", "Нож [Нету]\n \n");
 			setSettings.AddItem("", "Далее", ITEMDRAW_CONTROL);
 	
 			setSettings.Display(iClient, 15);
@@ -867,12 +864,12 @@ public int MenuSetRounds(Menu hMenu, MenuAction action, int iClient, int Item)
 				{
 					if(sBuf[0] == 'n')
 					{
-						menu.InsertItem(Item, "y", "Включить HeadShot мод [✓]")
+						menu.InsertItem(Item, "y", "Включить Только в голову [✓]")
 						pCustomRound[iClient][numRound].g_bSetHsMode = true;
 					}
 					else
 					{
-						menu.InsertItem(Item, "n", "Включить HeadShot мод []")
+						menu.InsertItem(Item, "n", "Включить Только в голову []")
 						pCustomRound[iClient][numRound].g_bSetHsMode = false;
 					}
 				
@@ -882,38 +879,23 @@ public int MenuSetRounds(Menu hMenu, MenuAction action, int iClient, int Item)
 				{
 					if(sBuf[0] == 'n')
 					{
-						menu.InsertItem(Item, "h", "Включить доп. объекты [✓]")
-						pCustomRound[iClient][numRound].g_bProps = true;
-					}
-					else
-					{
-						menu.InsertItem(Item, "n", "Включить доп. объекты []")
-						pCustomRound[iClient][numRound].g_bProps = false;
-					}
-
-					menu.Display(iClient, 15);
-				}
-				case 2:
-				{
-					if(sBuf[0] == 'n')
-					{
-						menu.InsertItem(Item, "k", "Броня [без шлема]")
+						menu.InsertItem(Item, "k", "Броня [Без шлема]")
 						pCustomRound[iClient][numRound].g_iSetArmor = 1;
 					}
 					else if(sBuf[0] == 'k')
 					{
-						menu.InsertItem(Item, "h", "Броня [полная]")
+						menu.InsertItem(Item, "h", "Броня [Полная]")
 						pCustomRound[iClient][numRound].g_iSetArmor = 2;
 					}
 					else
 					{
-						menu.InsertItem(Item, "n", "Броня [нету]")
+						menu.InsertItem(Item, "n", "Броня [Нету]")
 						pCustomRound[iClient][numRound].g_iSetArmor = 0;
 					}
 
 					menu.Display(iClient, 15);
 				}
-				case 3:
+				case 2:
 				{
 					if(sBuf[0] == 'n')
 					{
@@ -933,7 +915,7 @@ public int MenuSetRounds(Menu hMenu, MenuAction action, int iClient, int Item)
 
 					menu.Display(iClient, 15);
 				}
-				case 4:
+				case 3:
 				{
 					if(sBuf[0] == 'n')
 					{
@@ -948,75 +930,22 @@ public int MenuSetRounds(Menu hMenu, MenuAction action, int iClient, int Item)
 
 					menu.Display(iClient, 15);
 				}
-				case 5:
+				case 4:
 				{
 					if(sBuf[0] == 'n')
 					{
 						menu.InsertItem(Item, "h", "Нож [Есть]")
 						pCustomRound[iClient][numRound].g_bKnife = true;
-
-						menu.RemoveItem(Item + 1);
-
-						if(pCustomRound[iClient][numRound].g_bKnifeDamage)
-						{
-							menu.InsertItem(Item + 1, "h", "Урон от ножа [Вкл]", ITEMDRAW_DEFAULT);
-						}
-						else
-						{
-							menu.InsertItem(Item + 1, "n", "Урон от ножа [Выкл]", ITEMDRAW_DEFAULT);
-						}
-						
 					}
 					else
 					{
 						menu.InsertItem(Item, "n", "Нож [Нету]")
 						pCustomRound[iClient][numRound].g_bKnife = false;
-
-						menu.RemoveItem(Item + 1);
-						
-						if(pCustomRound[iClient][numRound].g_bKnifeDamage)
-						{
-							menu.InsertItem(Item + 1, "h", "Урон от ножа [Вкл]", ITEMDRAW_DISABLED);
-						}
-						else
-						{
-							menu.InsertItem(Item + 1, "n", "Урон от ножа [Выкл]", ITEMDRAW_DISABLED);
-						}
 					}
 					
 					menu.Display(iClient, 15);
 				}
-				case 6:
-				{
-					if(sBuf[0] == 'n')
-					{
-						menu.InsertItem(Item, "h", "Урон от ножа [Вкл]", pCustomRound[iClient][numRound].g_bKnife == true? ITEMDRAW_DEFAULT:ITEMDRAW_DISABLED)
-						pCustomRound[iClient][numRound].g_bKnifeDamage = true;
-					}
-					else
-					{
-						menu.InsertItem(Item, "n", "Урон от ножа [Выкл]", pCustomRound[iClient][numRound].g_bKnife == true? ITEMDRAW_DEFAULT:ITEMDRAW_DISABLED)
-						pCustomRound[iClient][numRound].g_bKnifeDamage = false;
-					}
-					
-					menu.Display(iClient, 15);
-				}
-				case 7:
-				{					
-					if(sBuf[0] == 'n')
-					{
-						menu.InsertItem(Item, "h", "Стрельба с задержкой [Есть]\n \n")
-						pCustomRound[iClient][numRound].g_bModQueue= true;
-					}
-					else
-					{
-						menu.InsertItem(Item, "n", "Стрельба с задержкой [Нету]\n \n")
-						pCustomRound[iClient][numRound].g_bModQueue = false;
-					}
-					
-					menu.Display(iClient, 15);
-				}
-				case 8:
+				case 5:
 				{
 					pCustomRound[iClient][numRound].IsTooled = true;
 					if(g_bIsSameRounds)
@@ -1064,7 +993,7 @@ public int MS_VotePanel(Menu panel, MenuAction action, int iClient, int item)
 	{
 		bool flag = item == yes;
 		g_bVoteClient[iClient] = flag;
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] %N нажал %s", iClient, flag == true? "{GREEN}+":"{RED}-");
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] %N нажал %s", iClient, flag == true? "{PURPLE}+":"{PURPLE}-");
 	}
 	
 	playerCount++;
@@ -1096,7 +1025,7 @@ public void VoteResult()
 
 	if(total == 0)
 	{
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {RED}Голосование провалилось. {DEFAULT}Никто не проголосовал!");
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Голосование провалилось. {PURPLE}Никто не проголосовал!");
 		return;
 	}
 
@@ -1106,12 +1035,12 @@ public void VoteResult()
 	if (FloatCompare(percent,limit) < 0)
 	{
 
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {RED}Голосование провалилось. \x03Необходимо %d %s голосов. (Получено %d %s голосов из %d)", RoundToNearest(100.0*limit), "%", RoundToNearest(100.0*percent), "%%", total);
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Голосование провалилось. Необходимо %d %s голосов. {PURPLE}(Получено %d %s голосов из %d)", RoundToNearest(100.0*limit), "%", RoundToNearest(100.0*percent), "%%", total);
 		ResetSettings();
 	}
 	else
 	{
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {GREEN}Голосование состоялось. {DEFAULT}(Получено %d %s голосов из %d)", RoundToNearest(100.0*percent), "%", total);
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Голосование состоялось. {PURPLE}(Получено %d %s голосов из %d)", RoundToNearest(100.0*percent), "%", total);
 	
 		//iRound = CS_GetTeamScore(2) + CS_GetTeamScore(3) + 1;
 
@@ -1160,12 +1089,6 @@ public Action TimerCallBack(Handle hTimer, any iUserID)
 	{
 		if(customRound[numCurrentRound].g_bGravity)
 		{
-			if(VIP_IsClientFeatureUse(iClient, "Parachute"))
-			{
-				VIPFM_ToggleFeature(iClient, false, "Parachute");
-				VIP_PrintToChatClient(iClient, "\x03Идет кастомный раунд с пониженной гравитацией, ваш парашют отключён");
-			}
-			
 			SetEntPropFloat(iClient, Prop_Data, "m_flGravity", 0.25);
 		}
 
@@ -1391,19 +1314,19 @@ public int Handler_Set_Manage(Menu hMenu, MenuAction action, int iClient, int It
 
 					if(curTime > timeCD)
 					{
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Кастомный раунд уже поставлен! Дождитесь окончания для того чтобы узнать время до нового.");
 					}
 					else
 					{
 						int _timeCD = timeCD - curTime;
-						CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}Следующее голосование возможно через {RED}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
+						CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Следующее голосование возможно через {PURPLE}%d мин. %02d сек.", _timeCD / 60, _timeCD % 60);
 					}
 
 					return;
 				}
 				else if(g_iAdminChoses) 
 				{
-					CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {DEFAULT}На данный момент другой {RED}администратор {DEFAULT}проводит создание {LIGHTBLUE}Custom Rounds");
+					CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] На данный момент другой {PURPLE}администратор {DEFAULT}проводит создание {PURPLE}Custom Rounds");
 					return;
 				}
 				

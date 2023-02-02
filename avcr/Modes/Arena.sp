@@ -447,7 +447,7 @@ public void ShowNotificationArena()
 {
     char sBuf[128];
     Format(sBuf, sizeof (sBuf), "Начался Arena 1x1 раунд! \nОсталось раундов: %d", iCountRound);
-    CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался {RED}Arena 1x1{DEFAULT} раунд! {PURPLE}Осталось раундов: {RED}%d", iCountRound);
+    CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался {PURPLE}Arena 1x1{DEFAULT} раунд! {PURPLE}Осталось раундов: {PURPLE}%d", iCountRound);
 
     for(int i = 1; i <= MaxClients; i++)
 	{

@@ -15,8 +15,8 @@ public void SetNoScope(int weapon)
 public void ShowNotificationNoScope()
 {
 	char sBuf[128];
-	Format(sBuf, sizeof (sBuf), "Начался раунд без прицелов (NOSCOPE)!\nОсталось раундов: %d", iCountRound);
-	CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Начался {RED}NOSCOPE {DEFAULT}раунд! Осталось раундов: {RED}%d", iCountRound);
+	Format(sBuf, sizeof (sBuf), "Начался раунд без прицелов!\nОсталось раундов: %d", iCountRound);
+	CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Начался {PURPLE}без прицелов {DEFAULT}раунд! Осталось раундов: {PURPLE}%d", iCountRound);
 
 	for(int i = 1; i <= MaxClients; i++)
 	{

@@ -381,14 +381,14 @@ public void OnPluginEnd()
 	hs_mode.IntValue = 0;
 	mp_death_drop_gun.IntValue = 1;
 	
-	CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CustomRounds{DEFAULT}] Плагин был выгружен! Применяем дефолтные настройки");
+	CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Плагин был выгружен! Применяем дефолтные настройки");
 }
 
 public Action CB_Block(int iClient, const char[] command, int argc)
 {
 	if(bCustomRound)
 	{
-		CGOPrintToChat(iClient, "{DEFAULT}[{LIGHTBLUE}CustomRounds{DEFAULT}] Во время кастомного раунда {RED}нельзя {DEFAULT}использовать данную команду!");
+		CGOPrintToChat(iClient, "[{PURPLE}XCP{DEFAULT}] Во время кастомного раунда {PURPLE}нельзя {DEFAULT}использовать данную команду!");
 		return Plugin_Stop;
 	} 
 

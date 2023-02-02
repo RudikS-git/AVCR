@@ -6,8 +6,6 @@ public ResetSettings()
 
 	hs_mode.IntValue = iHSMODE;
 	mp_ignore_round_win_conditions.IntValue = 0;
-
-	CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Выполнился сброс настроек");
 }
 
 public ResetCR(CustomRound [] cr)
@@ -370,7 +368,7 @@ public void ShowRoundsQueue()
 {
 	if(numCurrentRound != COUNT_ROUNDS - 1 && customRound[numCurrentRound + 1].typeCustomGame != Default)
 	{
-		CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] Следующие раунды:\n");
+		CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] Следующие раунды:\n");
 
 		char sType[64];
 		
@@ -382,7 +380,7 @@ public void ShowRoundsQueue()
 			}
 
 			GetTypeCustomGame(sType, sizeof(sType), i);
-			CGOPrintToChatAll("{DEFAULT}[{LIGHTBLUE}CR{DEFAULT}] {RED}%d) {GREEN}%s", j, sType);
+			CGOPrintToChatAll("[{PURPLE}XCP{DEFAULT}] {PURPLE}%d) {PURPLE}%s", j, sType);
 		}
 	}
 }
@@ -397,22 +395,22 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 			{
 				if((!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage))
 				{
-					Format(sType, length, "Оружейный на %s {RED}(only hs, нож выкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Оружейный на {PURPLE}%s {DEFAULT}(Только в голову, Нож выкл)", customRound[round].sNameCurWeapon);
 				}
 				else
 				{
-					Format(sType, length, "Оружейный на %s {RED}(only hs, нож вкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Оружейный на {PURPLE}%s {DEFAULT}(Только в голову, Нож вкл)", customRound[round].sNameCurWeapon);
 				}
 			}
 			else
 			{
 				if((!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage))
 				{
-					Format(sType, length, "Оружейный на %s {DEFAULT}(нож {RED}выкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Оружейный на {PURPLE}%s {DEFAULT}(Нож выкл)", customRound[round].sNameCurWeapon);
 				}
 				else
 				{
-					Format(sType, length, "Оружейный на %s {DEFAULT}(нож {GREEN}вкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Оружейный на {PURPLE}%s {DEFAULT}(Нож вкл)", customRound[round].sNameCurWeapon);
 				}
 			}
 
@@ -426,11 +424,11 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 		{
 			if(!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage)
 			{
-				strcopy(sType, length, "Без прицелов ({DEFAULT}нож {RED}выкл{DEFAULT})");
+				strcopy(sType, length, "Без прицелов (Нож выкл)");
 			}
 			else
 			{
-				strcopy(sType, length, "Без прицелов ({DEFAULT}нож {GREEN}вкл{DEFAULT})");
+				strcopy(sType, length, "Без прицелов (Нож вкл)");
 			}
 		}
 		case ChickenWar:
@@ -441,11 +439,11 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 		{
 			if(!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage)
 			{
-				Format(sType, length, "Grenade War (%s, {DEFAULT}нож {RED}выкл{DEFAULT})", customRound[round].sCurrentWeapon);
+				Format(sType, length, "Война на гранатах ({PURPLE}%s{DEFAULT}, Нож выкл)", customRound[round].sCurrentWeapon);
 			}
 			else
 			{
-				Format(sType, length, "Grenade War (%s, {DEFAULT}нож {GREEN}вкл{DEFAULT})", customRound[round].sCurrentWeapon);
+				Format(sType, length, "Война на гранатах ({PURPLE}%s{DEFAULT}, Нож вкл)", customRound[round].sCurrentWeapon);
 			}
 			
 		}
@@ -457,11 +455,11 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 		{
 			if(!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage)
 			{
-				strcopy(sType, length, "Поебень ({DEFAULT}нож {RED}выкл{DEFAULT})");
+				strcopy(sType, length, "Поебень (Нож выкл)");
 			}
 			else
 			{
-				strcopy(sType, length, "Поебень ({DEFAULT}нож {GREEN}вкл{DEFAULT})");
+				strcopy(sType, length, "Поебень (Нож вкл)");
 			}
 
 		}
@@ -469,11 +467,11 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 		{
 			if(!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage)
 			{
-				strcopy(sType, length, "Длинные прыжки ({DEFAULT}нож {RED}выкл{DEFAULT})");
+				strcopy(sType, length, "Длинные прыжки (Нож выкл)");
 			}
 			else
 			{
-				strcopy(sType, length, "Длинные прыжки ({DEFAULT}нож {GREEN}вкл{DEFAULT})");
+				strcopy(sType, length, "Длинные прыжки (Нож вкл)");
 			}
 			
 		}
@@ -481,11 +479,11 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 		{
 			if(!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage)
 			{
-				strcopy(sType, length, "WallHack ({DEFAULT}нож {RED}выкл{DEFAULT})");
+				strcopy(sType, length, "WallHack (Нож выкл)");
 			}
 			else
 			{
-				strcopy(sType, length, "WallHack ({DEFAULT}нож {GREEN}вкл{DEFAULT})");
+				strcopy(sType, length, "WallHack (Нож вкл)");
 			}
 
 		}
@@ -501,22 +499,22 @@ public void GetTypeCustomGame(char [] sType, int length, int round)
 			{
 				if((!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage))
 				{
-					Format(sType, length, "Арена на %s {RED}(only hs, нож выкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Арена на {PURPLE}%s {DEFAULT}(Только в голову, Нож выкл)", customRound[round].sNameCurWeapon);
 				}
 				else
 				{
-					Format(sType, length, "Арена на %s {RED}(only hs, нож вкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Арена на {PURPLE}%s {DEFAULT}(Только в голову, Нож вкл)", customRound[round].sNameCurWeapon);
 				}
 			}
 			else
 			{
 				if((!customRound[round].g_bKnife || !customRound[round].g_bKnifeDamage))
 				{
-					Format(sType, length, "Арена на %s {DEFAULT}(нож {RED}выкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Арена на {PURPLE}%s {DEFAULT}(Нож выкл)", customRound[round].sNameCurWeapon);
 				}
 				else
 				{
-					Format(sType, length, "Арена на %s {DEFAULT}(нож {GREEN}вкл)", customRound[round].sNameCurWeapon);
+					Format(sType, length, "Арена на {PURPLE}%s {DEFAULT}(Нож вкл)", customRound[round].sNameCurWeapon);
 				}
 			}
 		}

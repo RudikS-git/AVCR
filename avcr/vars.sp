@@ -1,4 +1,4 @@
-#define CD 900.0 // кд для некст голосования
+#define CD 600.0 // кд для некст голосования
 #define LENGTH_WEAPON 64
 #define COUNT_ROUNDS 3
 #define DISCHARGE_COUNT 1000
