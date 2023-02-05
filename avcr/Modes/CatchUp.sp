@@ -420,6 +420,7 @@ public void EndOfTheRound()
 		if(IsClientInGame(i))
 		{
 			StopSound(i, SNDCHAN_STATIC, g_sSoundCatchUp);
+			SetEntityRenderColor(i, defaultColor[0], defaultColor[1], defaultColor[2], defaultColor[3]);
 			
 			if(catchUp_TimerAntiCamp[i] != null)
 			{
