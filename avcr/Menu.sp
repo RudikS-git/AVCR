@@ -94,7 +94,7 @@ public Menu CreateRoundSettingsMenu(iClient)
 
 bool CheckTooled(int iClient)
 {
-    for(int i = 0; i < iCountRound; i++)
+    for(int i = 0; i < piCountRound[iClient]; i++)
     {
         if(pCustomRound[iClient][i].IsTooled == false)
         {
